@@ -1,5 +1,5 @@
 import { EventDispatcher } from "./events.ts";
 
-export { EventDispatcher };
+export { EventDispatcher } from "./events.ts";
 
 export default EventDispatcher;

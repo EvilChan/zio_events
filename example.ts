@@ -1,4 +1,4 @@
-import { EventDispatcher } from "./mod.ts";
+import { EventDispatcher } from "https://deno.land/x/zio_events@v1.0.0/mod.ts";
 
 class Application extends EventDispatcher {
   run() {
