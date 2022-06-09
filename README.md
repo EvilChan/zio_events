@@ -7,7 +7,7 @@
 > 直接使用 EventDispatcher
 
 ```typescript
-import { EventDispatcher } from "./mod.ts";
+import { EventDispatcher } from "https://deno.land/x/zio_events@v1.0.0/mod.ts";
 
 const event = new EventDispatcher();
 
@@ -29,7 +29,7 @@ event.dispatchEvent("add", 1);
 > 继承 EventDispatcher
 
 ```typescript
-import { EventDispatcher } from "./mod.ts";
+import { EventDispatcher } from "https://deno.land/x/zio_events@v1.0.0/mod.ts";
 
 class Application extends EventDispatcher {
   run() {
